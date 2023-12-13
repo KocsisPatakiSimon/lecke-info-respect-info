@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int szam, oszto,S=0;
+    cout<<"szam= ";
+    cin>>szam;
+
+    for(oszto=1;oszto<szam;oszto++)
+    {
+        if(szam % oszto == 0)
+        {
+           S=S+oszto;
+        }
+
+
+    }
+    if(S==szam)
+        {
+            cout<<"a szam tokeletes";
+        }
+
+    return 0;
+}
+
