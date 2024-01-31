@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int i, n,szam,S=0,oszto;
+    cin>>n;
+    for(i=1;i<=n;i++)
+    {
+        cin>>szam;
+        for (oszto=2;oszto<=szam/2-1;oszto++)
+        {
+            if(szam%2==0)
+            {
+                S+=oszto;
+            }
+            else
+            {
+                cout<<"a szam prim";
+            }
+        }
+    }
+
+cout<<S;
+    return 0;
+}
