@@ -1,15 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-ifstream cin("progresie3.in");
-ofstream cout("progresie3.out");
+ifstream bac("bac.in");
 
 int f[1001], a[1001], p = 1;
 
 int main() {
     int x;
     // Read numbers from the file and mark them in the array `f`
-    while (cin >> x) {
+    while (bac >> x) {
         f[x] = 1;
     }
     
